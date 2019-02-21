@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fauzymk/vue-flatpickr-component.git"
+    "url": "git+https://github.com/ankurk91/vue-flatpickr-component.git"
   },
   "keywords": [
     "vue",
@@ -32,7 +32,7 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --progress --hot --config=webpack.config.dev.js",
     "docs": "cross-env NODE_ENV=production webpack --config=webpack.config.dev.js --progress --mode production",
     "build": "cross-env NODE_ENV=production webpack --progress --mode production",
-    "prepublishOnly": "yarn run test && yarn run build"
+    "prepare": "yarn run test && yarn run build"
   },
   "dependencies": {
     "flatpickr": "https://github.com/fauzymk/flatpickr.git#new-range-plugin"
