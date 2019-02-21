@@ -2682,10 +2682,9 @@ findup-sync@^2.0.0:
     micromatch "^3.0.4"
     resolve-dir "^1.0.1"
 
-flatpickr@^4.5.1:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.5.2.tgz#47c8ad472a096e5fb7e74b809b0703535383f20d"
-  integrity sha512-jDy4QYGpmiy7+Qk8QvKJ4spjDdxcx9cxMydmq1x427HkKWBw0qizLYeYM2F6tMcvvqGjU5VpJS55j4LnsaBblA==
+"flatpickr@https://github.com/fauzymk/flatpickr.git#new-range-plugin":
+  version "4.5.1"
+  resolved "https://github.com/fauzymk/flatpickr.git#a455e34ab1dd48c8d22285f7fd480f7ee721434a"
 
 flush-write-stream@^1.0.0:
   version "1.0.3"
